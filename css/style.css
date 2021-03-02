@@ -1,13 +1,12 @@
 html * {
-    font-family: Arial, Helvetica, sans-serif !important;
-}
-
-a {
-    color: white;
+    font-family: sans-serif;
 }
 
 h1, h2, h3 {
     text-align: center;
+    background: #333;
+    color: white;
+    font-family: sans-serif;
 }
 
 img {
@@ -21,4 +20,8 @@ footer {
     padding: 3rem;
     margin-top: auto;
     text-align: center;
+}
+
+#footer_a {
+    color: white;
 }

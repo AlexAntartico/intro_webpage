@@ -1,4 +1,4 @@
-html * {
+html {
     font-family: sans-serif;
 }
 
@@ -9,19 +9,6 @@ h1, h2, h3 {
     font-family: sans-serif;
     padding: 3rem;
 }
-
-body {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-header {
-
-    background: #333;
-    text-align: center;
-    }
 
 img {
     width: 50%
@@ -36,6 +23,34 @@ footer {
     text-align: center;
 }
 
+/* Classes */
+
 .afooter {
     color: white;
+}
+
+.main-nav {
+    list-style: none;
+    background-color: #333;
+    margin-top: auto;
+    padding: 1rem;
+    /* position: fixed;
+    overflow: auto;
+    width: 100%; */
+}
+
+.main-nav__item {
+    margin: 5px;
+    display: inline-block;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid transparent;
+}
+
+.main-nav__item a:hover {
+    border-radius: 1px;
+    border: 3px solid white;
 }

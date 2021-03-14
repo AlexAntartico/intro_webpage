@@ -25,6 +25,30 @@ footer {
 
 /* Classes */
 
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: white;
+    color: #333;
+    border-radius: .75rem;
+    border-bottom: .25rem solid white;
+}
+
 .afooter {
     color: white;
 }
@@ -32,25 +56,11 @@ footer {
 .main-nav {
     list-style: none;
     background-color: #333;
-    margin-top: auto;
-    padding: 1rem;
+    padding: 1.6rem;
+    text-decoration: none;
     /* position: fixed;
     overflow: auto;
     width: 100%; */
 }
 
-.main-nav__item {
-    margin: 5px;
-    display: inline-block;
-}
-
-.main-nav__item a {
-    text-decoration: none;
-    padding: 1rem;
-    border: 1px solid transparent;
-}
-
-.main-nav__item a:hover {
-    border-radius: 1px;
-    border: 3px solid white;
-}
+ 

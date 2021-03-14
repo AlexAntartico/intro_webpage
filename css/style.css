@@ -28,11 +28,9 @@ footer {
 .button {
     background-color: #333;
     border: none;
-    color: white;
     padding: 1rem 2rem;
     font-size: 1rem;
     text-align: center;
-    text-decoration: none;
     opacity: 1;
     transition: 0.3s;
     display: inline-block;
@@ -40,13 +38,12 @@ footer {
 
 .button a {
     text-decoration: none;
+    color: white;
 }
 
-.button a:hover {
-    background-color: white;
-    color: #333;
-    border-radius: .75rem;
-    border-bottom: .25rem solid white;
+.button:hover {
+    background-color: black;
+    opacity: 0.5;
 }
 
 .afooter {
@@ -57,10 +54,7 @@ footer {
     list-style: none;
     background-color: #333;
     padding: 1.6rem;
-    text-decoration: none;
     /* position: fixed;
     overflow: auto;
     width: 100%; */
 }
-
- 

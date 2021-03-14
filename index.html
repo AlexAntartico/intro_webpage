@@ -13,30 +13,37 @@
         <main>
             <header>
                 <nav class="main-nav">
-                    <button class="button" type="submit"><li class="main-nav__item"><a href="#social">Contact</a></li></button>
+                    <button class="button" type="submit"><a href="#aboutme">About Me</a></button>
+                    <button class="button" type="submit"><a href="#tomas">My dog</a></button>
+                    <button class="button" type="submit"><a href="#video">Sample Video</a></button>
+                    <button class="button" type="submit"><a href="#tools">Tools</a></button>                    
+                    <button class="button" type="submit"><a href="#social">Contact me!</a></button>
                 </nav>
             </header>
-            <h1>Hi all, I am Alex</h1>
-            <p>Hi, Mi name is Alex Garcia, I go by my nickname, Penguin or you can call me Alex. 
-                I am from Mexico and I currently work as a Production Support Engineer. I would like to change
-                my career and land a developer job. For this purpose, I have been learning something new regarding
-                programming every single day since January, most of the times it has been Python and fundamental 
-                concepts such as TDD or OOP concepts, more recently HTML/CSS concepts to have a better grasp on the
-                front end development.
-            </p>
-            <p>I started learning python a couple of months ago as this has helped me to make some simple scripts 
-                at my current job. I am currently learning about unit testing, Test Driven Development and grasping
-                on the Object Oriented Programming concepts in Python as this will empower me to create more 
-                complex scripts.
-            </p>
-            <p>
-                I recently enrolled into <a href="https://stackademic.com/">stackademic</a> boot camp to become
-                a full stack Web developer. Once you start programming it is hard not to come across html/css/js 
-                elements and it looks like there is a lot of things you can do if you are a fullstack web developer.
-            </p>
-            <p>I will leave you with a pohto of my dog, his name is Tomas.</p>
+            <!-- to do: resize video, adn fr sections, figure out title margin -->
+            <section id="aboutme">
+                <h1>Hi all, I am Alex</h1>
+                <p>Hi, Mi name is Alex Garcia, I go by my nickname, Penguin or you can call me Alex. 
+                    I am from Mexico and I currently work as a Production Support Engineer. I would like to change
+                    my career and land a developer job. For this purpose, I have been learning something new regarding
+                    programming every single day since January, most of the times it has been Python and fundamental 
+                    concepts such as TDD or OOP concepts, more recently HTML/CSS concepts to have a better grasp on the
+                    front end development.
+                </p>
+                <p>I started learning python a couple of months ago as this has helped me to make some simple scripts 
+                    at my current job. I am currently learning about unit testing, Test Driven Development and grasping
+                    on the Object Oriented Programming concepts in Python as this will empower me to create more 
+                    complex scripts.
+                </p>
+                <p>
+                    I recently enrolled into <a href="https://stackademic.com/">stackademic</a> boot camp to become
+                    a full stack Web developer. Once you start programming it is hard not to come across html/css/js 
+                    elements and it looks like there is a lot of things you can do if you are a fullstack web developer.
+                </p>
+                <p>I will leave you with a photo of my dog, his name is Tomas.</p>
+           </section>
             <section>
-                <figure>
+                <figure id="tomas">
                     <img 
                         src="./assets/images/tommy_el_mejor.jpg" 
                         alt="Tomas, the Mamooth slayer"
@@ -45,11 +52,11 @@
                 </figure>
             </section>
             <section>
-                <video controls preload="auto">
+                <video id="video" controls preload="auto">
                     <source src="./assets/videos/hd_pexels-tima-miroshnichenko-6611938.mp4#t=10,18"/> 
                 </video>
             </section>
-            <p>The below are tools and languages that I know up to some extent:</p>
+            <p id="tools">The below are tools and languages that I know up to some extent:</p>
             <ul>
                 <li>linux</li>
                 <li>git/github</li>

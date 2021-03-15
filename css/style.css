@@ -4,10 +4,11 @@ html {
 
 h1, h2, h3 {
     text-align: center;
-    background: #333;
-    color: white;
+    font-family: monospace;
+    /* background: #333;
+    color: white; */
     font-family: sans-serif;
-    padding: 3rem;
+    /* padding: 3rem; */
 }
 
 img {
@@ -26,10 +27,12 @@ footer {
 /* Classes */
 
 .button {
+    font-family: monospace;
+    /* font-weight: bold; */
     background-color: #333;
     border: none;
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     opacity: 1;
     transition: 0.3s;
@@ -48,13 +51,33 @@ footer {
 
 .afooter {
     color: white;
+    font-family: monospace;
+    font-size: 1.2;
 }
 
 .main-nav {
     list-style: none;
     background-color: #333;
     padding: 1.6rem;
-    /* position: fixed;
+    /* position: fixed; */
     overflow: auto;
-    width: 100%; */
+    width: 100%;
+}
+
+.fa {
+    padding: 1.25rem;
+    font-size: 1.9rem;
+    width: 3.1rem;
+    size: 4em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github {
+    color: white;
+    size: 4em;
+  }
+
+.fa:hover {
+
 }

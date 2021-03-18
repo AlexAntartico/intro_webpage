@@ -1,5 +1,14 @@
-html {
+body {
+    overflow-x: hidden;
+}
+
+
+main {
     font-family: sans-serif;
+}
+
+main p {
+    padding: 1rem;
 }
 
 h1, h2, h3 {
@@ -12,16 +21,30 @@ h1, h2, h3 {
 }
 
 img {
-    width: 50%
+    width: 50%;
+}
+
+section {
+    padding: 2rem   ;
+}
+
+header {
+    width: 100%ss;
 }
 
 footer {
-    font-family: sans-serif;
+    font-family: monospace;
+    font-size: 3rem;
     background: #333;
     color: white;
     padding: 3rem;
-    margin-top: auto;
+    margin-top: 3rem;
+    width: 100%;
     text-align: center;
+}
+
+footer p {
+    font-size: 1.4rem;
 }
 
 /* Classes */
@@ -49,35 +72,25 @@ footer {
     opacity: 0.5;
 }
 
-.afooter {
-    color: white;
-    font-family: monospace;
-    font-size: 1.2;
-}
-
 .main-nav {
     list-style: none;
     background-color: #333;
     padding: 1.6rem;
     /* position: fixed; */
-    overflow: auto;
-    width: 100%;
 }
 
 .fa {
     padding: 1.25rem;
-    font-size: 1.9rem;
-    width: 3.1rem;
-    size: 4em;
+    /* width: 3.1rem; */
     text-align: center;
     text-decoration: none;
 }
 
 .fa-twitter, .fa-linkedin, .fa-github {
     color: white;
-    size: 4em;
   }
 
 .fa:hover {
-
+    background-color: black;
+    opacity: 0.5;
 }

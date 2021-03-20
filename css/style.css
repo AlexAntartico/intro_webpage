@@ -1,6 +1,8 @@
-body {
-    overflow-x: hidden;
+* {
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
 }
+
 
 
 main {
@@ -24,17 +26,20 @@ img {
     width: 50%;
 }
 
+video {
+    width: 50%;
+}
+
 section {
     padding: 2rem   ;
 }
 
 header {
-    width: 100%ss;
+    width: 100%;
 }
 
 footer {
     font-family: monospace;
-    font-size: 3rem;
     background: #333;
     color: white;
     padding: 3rem;
@@ -44,7 +49,7 @@ footer {
 }
 
 footer p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 /* Classes */
@@ -93,4 +98,16 @@ footer p {
 .fa:hover {
     background-color: black;
     opacity: 0.5;
+}
+
+.love {
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.fa-heart{
+    color: white;
+    padding: .5rem;
 }
